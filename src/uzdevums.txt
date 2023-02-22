@@ -1,0 +1,10 @@
+Uzdevums
+Task: Create a simple form that asks for the user's name, email, and password using jQuery to render the HTML. The user's input should be validated with jQuery and Regular Expressions.
+
+Validation rules:
+Name: The name must have at least 2 characters and can only contain letters. Max 50 characters.
+Email: The email must be in a valid format (e.g. example@example.com).
+Password: The password must be at least 8 characters long and must contain at least 1 number and 1 special character (!, @, #, $, %, ^, &, *).
+When the user submits the form, the validation rules should be checked. If all fields are valid, show a success message. If any field is invalid, show an error message for that field.
+
+Uzrakstīt test cases priekš validācijas funkcijām ar Jest
